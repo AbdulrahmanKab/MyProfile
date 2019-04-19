@@ -1,0 +1,27 @@
+footer{
+    display: grid;
+    grid-template-columns: 50em 20em;
+    position: relative;
+    bottom:-9px;
+    margin-top: 2.3em;
+    position: relative;
+    left: -6px;
+    width: 124.79%;
+    background-color: #fff;
+}
+.foo{
+    display: flex;
+    flex-direction: row;
+}
+.cn{
+    font-family: Courgette,sans-serif;
+    font-size: 2em;
+    padding-top: 0.7em;
+    padding-left: 2em;
+    margin: 0px;
+}
+.img-footer{
+    padding-left: 1em ;
+    padding-top: 1.4em;
+    padding-bottom: 0.5em;
+}

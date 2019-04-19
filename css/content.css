@@ -1,0 +1,82 @@
+.content{
+    margin-top: 2.3em;
+    display: grid;
+    grid-template-columns: 40em 30em;
+    position: relative;
+    left: -6px;
+    width: 124.79%;
+    background-color: #fff;
+    padding-bottom: 0.8em;
+}
+.obj{
+    padding-left: 1.7em;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: Open Sans,sans-serif;
+    margin-bottom: 9px;
+}
+.objContent{
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 1.2em;
+    text-align: justify;
+    padding-left: 2em;
+    font-family: Open Sans,sans-serif;
+}
+.latest{
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: Open Sans,sans-serif;
+    margin-top: 1em;
+    padding-left: 6em;
+}
+.btn{
+    margin: 0px;
+    padding-top: 0.8em;
+    color: #E65B53;
+}
+.btn-class{
+    width: 8em;
+    height: 2.6em;
+    font-size: 0.9em;
+background-color: #E65B53;
+    border-radius: 7px;
+    font-family: "Open Sans",sans-serif;
+}
+.btn-class:hover{
+    background-color: #2c343b;
+}
+.c-btn{
+    color: #ffffff;
+    text-align: center;
+}
+.wid{
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 2em;
+    font-size: 3em;
+    color: #ffffff;
+    font-family: "Open Sans";
+}
+.widContent{
+    padding-top: 4em;
+    padding-left: 0em;
+    display: grid;
+    grid-template-columns: 27em 27em 27em;
+}
+.tit{
+    text-align: center;
+    font-size: 2em;
+    font-family: kalam,sans-serif;
+    color: #ffffff;
+}
+.tit-content{
+    padding-top: 0.8em;
+    text-align: justify;
+    color: #ffffff;
+    font-size: 1.8em;
+    line-height: 1.3em;
+font-family: "Open Sans",sans-serif;
+    padding-left: 2em;
+}
