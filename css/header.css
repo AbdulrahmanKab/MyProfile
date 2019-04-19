@@ -37,6 +37,7 @@ a{
     background-color: #E65B53;
 }
 @media (max-width: 500px) {
+
     .i{
         font-family: 'Open Sans Condensed',  sans-serif;;
         font-size: 1.4em;
@@ -46,7 +47,7 @@ a{
     }
     .img-header{
         flex-shrink: 1;
-        padding-left:2.7em;
+        padding-left:1.5em;
         padding-top: 0.4em;
         padding-bottom: 0.4em;
     }
