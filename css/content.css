@@ -1,3 +1,6 @@
+/*
+content behind photo
+*/
 .content{
     margin-top: 2.3em;
     display: grid;
@@ -79,4 +82,52 @@ background-color: #E65B53;
     line-height: 1.3em;
 font-family: "Open Sans",sans-serif;
     padding-left: 2em;
+}
+@media (max-width: 500px) {
+    .content{
+        display: block;
+    }
+    .obj{
+        font-size: 1.8em;
+        padding-left: 0.5em;
+        padding-top: 0.6em;
+    }
+    .objContent{
+        padding-left: 0.6em;
+        padding-right: 0.5em;
+    }
+    .latest{
+
+        padding-left: 0px;
+
+    }
+    .wid{
+        font-size: 2em;
+    }
+    .widContent{
+        padding-top: 4em;
+        padding-left: 0em;
+        display: block;
+    }
+    .tit{
+        padding-top: 2em;
+        font-size: 1.5em;
+    }
+    .widContent{
+        padding-top: 0px;
+    }
+    .tit-content{
+        padding-top: 0.8em;
+        text-align: justify;
+        color: #ffffff;
+        font-size: 1.3em;
+        line-height: 1.3em;
+        font-family: "Open Sans",sans-serif;
+        padding-left: 2em;
+    }
+}
+@media (max-width: 350px) {
+    .obj{
+        font-size: 1.5em;
+    }
 }

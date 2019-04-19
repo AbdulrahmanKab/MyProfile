@@ -1,6 +1,8 @@
+/*
+footer
+*/
 footer{
-    display: grid;
-    grid-template-columns: 50em 20em;
+
     position: relative;
     bottom:-9px;
     margin-top: 2.3em;
@@ -24,4 +26,20 @@ footer{
     padding-left: 1em ;
     padding-top: 1.4em;
     padding-bottom: 0.5em;
+}
+@media  (max-width: 500px){
+    .cn{
+        font-family: Courgette,sans-serif;
+        font-size: 1.3em;
+        padding-top: 0.9em;
+        padding-left: 0.5em;
+        margin: 0px;
+    }
+    .img-footer{
+        width: 25px;
+        height: 25px;
+        padding-left: 1em ;
+        padding-top: 1.4em;
+        padding-bottom: 0.5em;
+    }
 }

@@ -5,6 +5,7 @@ body{
     float: left;
     width: 80%;
     height: 100%;
+    overflow-x: hidden;
 }
 nav{
     position: absolute;
@@ -48,5 +49,17 @@ a{
         padding-left:2.7em;
         padding-top: 0.4em;
         padding-bottom: 0.4em;
+    }
+}
+@media  (max-width: 350px){
+    .img-header{
+        flex-shrink: 1;
+        padding-left:1.5em;
+        padding-top: 0.4em;
+        padding-bottom: 0.4em;
+    }
+    .i{
+        font-size: 1.2em;
+        padding: 0.6em 20px;
     }
 }

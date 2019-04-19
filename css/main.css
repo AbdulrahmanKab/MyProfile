@@ -1,4 +1,6 @@
-
+/*
+photo and desription
+*/
 .he{margin-top: 4em;
     display: flex}
 .myPhoto{
@@ -48,12 +50,22 @@ font-weight: bold;
         text-transform: capitalize;
         color: #fff;
         font-weight: bold;
-        font-size: 1.5em;
+        font-size: 1.4em;
         line-height: 1.3em;
         font-family: "Open Sans",sans-serif;
     }
     .hire{
         font-size: 1.2em;
         color: #E65B53;
+    }
+}
+@media  (max-width: 350px){
+    .myPhoto{
+
+        padding-left: 0.1em;
+
+    }
+    .eli{
+        font-size: 1.2em;
     }
 }
