@@ -21,17 +21,25 @@ footer{
     padding-top: 0.7em;
     padding-left: 2em;
     margin: 0px;
+    color: #ffffff;
 }
 .img-footer{
     padding-left: 1em ;
     padding-top: 1.4em;
     padding-bottom: 0.5em;
 }
+.copy{
+    padding-left: 3em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    font-family: "Open Sans",sans-serif;
+    font-size: 1em;
+}
 @media  (max-width: 500px){
     .cn{
         font-family: Courgette,sans-serif;
-        font-size: 1.3em;
-        padding-top: 0.9em;
+        font-size: 12px;
+        padding-top: 2em;
         padding-left: 0.5em;
         margin: 0px;
     }
@@ -41,5 +49,27 @@ footer{
         padding-left: 1em ;
         padding-top: 1.4em;
         padding-bottom: 0.5em;
+    }
+    .copy{
+        padding-top: 0.5em;
+    }
+}
+@media  (max-width: 350px){
+    .cn{
+        font-family: Courgette,sans-serif;
+        font-size: 10px;
+        padding-top: 2em;
+        padding-left: 0.5em;
+        margin: 0px;
+    }
+    .img-footer{
+        width: 25px;
+        height: 25px;
+        padding-left: 1em ;
+        padding-top: 1.4em;
+        padding-bottom: 0.5em;
+    }
+    .copy{
+        padding-top: 0.5em;
     }
 }
